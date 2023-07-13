@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Animate -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <link rel="stylesheet" href="index.css" />
+
+  <!-- font-awesome ICONS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<body>
+
+  <!--NAV -->
+  <!-- header>.container -->
+  <header>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">My portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <!-- bs4: MARGIN LEFT -->
+            <li class="nav-item ml-5 active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item ml-5">
+              <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item ml-5">
+              <a class="nav-link" href="#">Service <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item ml-5">
+              <a class="nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+          <!-- <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                  </form> -->
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- NAV ends -->
+
+  <!-- CAROUSEL starts -->
+  <!-- <h1 class="animate__animated animate__bounce">An animated element</h1> -->
+  <section id="carousel">
+    <!-- this dive is copied from Bootstrap -->
+    <div class="bd-example">
+      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./image/finland.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <img class="animate__animated animate__fadeInUp" src="./image/01-3.jpg" alt="" />
+              <h5 class="animate__animated animate__bounce animate__fadeInUp">
+                First slide label
+              </h5>
+              <p class="animate__animated animate__bounce animate__fadeInUp">
+                Nulla vitae elit libero, a pharetra augue mollis interdum.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./image/mountains.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <img class="animate__animated animate__fadeInUp" src="./image/02-3.jpg" alt="" />
+              <h5 class="animate__animated animate__bounce animate__fadeInUp">Second slide label</h5>
+              <p class="animate__animated animate__bounce animate__fadeInUp">Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./image/mountains-1.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <img class="animate__animated animate__fadeInUp" src="./image/03-3.jpg" alt="" />
+              <h5 class="animate__animated animate__bounce animate__fadeInUp">Third slide label</h5>
+              <p class="animate__animated animate__bounce animate__fadeInUp">
+                Praesent commodo cursus magna, vel scelerisque nisl
+                consectetur.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- CAROUSEL ends -->
+
+  <!-- PROJECTS starts -->
+      <section id="projects">
+    <div class="container text-center py-5">
+      <h2 class="display-4 font-weight-bold">I Love What I Do</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+        enim nam maxime minima numquam maiores quasi perferendis inventore.
+        Porro distinctio ea vitae aliquid magnam quis iure esse perspiciatis
+        temporibus saepe.
+      </p>
+
+      <div class="projects__tab">
+        <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" id="pills-projects-tab" data-toggle="pill" href="#pills-projects" role="tab"
+              aria-controls="pills-projects" aria-selected="true">Project</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="pills-illustration-tab" data-toggle="pill" href="#pills-illustration" role="tab"
+              aria-controls="pills-illustration" aria-selected="false">Illustration</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="pills-photography-tab" data-toggle="pill" href="#pills-photography" role="tab"
+              aria-controls="pills-photography" aria-selected="false">Photography</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="pills-website-tab" data-toggle="pill" href="#pills-website" role="tab"
+              aria-controls="pills-website" aria-selected="false">Website</a>
+          </li>
+        </ul>
+
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-projects" role="tabpanel"
+            aria-labelledby="pills-projects-tab">
+            <div class="row">
+              <div class="col-12 col-md-6 col-lg-4 ">
+                <!-- b4-card-align -->
+                <div class="card text-center">
+                  <img class="card-img-top" src="./image/g1.jpg" alt="">
+                  <div class="card-body">
+                    <h4 class="card-title">Apologetic robot holding flowers</h4>
+                    <p class="card-text">Branding</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="card text-center">
+                  <img class="card-img-top" src="./image/g2.jpg" alt="">
+                  <div class="card-body">
+                    <h4 class="card-title">Apologetic robot holding flowers</h4>
+                    <p class="card-text">Branding</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="card text-center">
+                  <img class="card-img-top" src="./image/g3.jpg" alt="">
+                  <div class="card-body">
+                    <h4 class="card-title">Apologetic robot holding flowers</h4>
+                    <p class="card-text">Branding</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="row">
+              <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                  <!-- b4-card-align -->
+                  <div class="card text-center">
+                    <img class="card-img-top" src="./image/g4.jpg" alt="">
+                    <div class="card-body">
+                      <h4 class="card-title">Apologetic robot holding flowers</h4>
+                      <p class="card-text">Branding</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="card text-center">
+                    <img class="card-img-top" src="./image/g5.jpg" alt="">
+                    <div class="card-body">
+                      <h4 class="card-title">Apologetic robot holding flowers</h4>
+                      <p class="card-text">Branding</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="card text-center">
+                    <img class="card-img-top" src="./image/g6.jpg" alt="">
+                    <div class="card-body">
+                      <h4 class="card-title">Apologetic robot holding flowers</h4>
+                      <p class="card-text">Branding</p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+
+          <div class="tab-pane fade" id="pills-illustration" role="tabpanel" aria-labelledby="pills-illustration-tab">
+            2
+          </div>
+          <div class="tab-pane fade" id="pills-photography" role="tabpanel" aria-labelledby="pills-photography-tab">
+            3
+          </div>
+          <div class="tab-pane fade" id="pills-website" role="tabpanel" aria-labelledby="pills-website-tab">
+            4
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- PROJECTS ends -->
+
+  <!-- EXPERIENCE begins -->
+  <section id="experience">
+    <div class="container experience__container">
+      <h2 class="experience__title">I'm Available For Hire</h2>
+      <p class="experience__description">
+        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus
+        nunc,
+        ut rhoncus turpis sodales quis. Integer sit amet mattis quam.
+
+      </p>
+      <div class="experience__list">
+        <div class="experience__item">
+          <i class="fa fa-paint-brush"></i>
+          <h3>Design</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ut enim odio optio fugit laudantium
+            perspiciatis magnam. Unde ipsam, ratione aliquam iure nihil magni adipisci consectetur, alias assumenda
+            voluptas totam.</p>
+        </div>
+        <div class="experience__item">
+          <i class="fa-solid fa-shekel-sign"></i>
+          <h3>Marketing</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam aliquid obcaecati, assumenda
+            praesentium voluptas itaque nobis ex quae cupiditate cum recusandae, dolor expedita voluptate maiores
+            explicabo doloribus ratione dolorem. Quaerat.</p>
+        </div>
+        <div class="experience__item">
+          <i class="fa-solid fa-camera"></i>
+          <h3>Phototgraphy</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore atque debitis similique, numquam impedit
+            nam aliquam tempora obcaecati hic in corporis architecto facere repudiandae aut, porro incidunt temporibus
+            nihil explicabo?</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- EXPERIENCE ends -->
+
+  <!-- FOOTER starts -->
+  <section id="footer"></section>
+  <!-- FOOTER ends -->
+
+
+
+  </section>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
